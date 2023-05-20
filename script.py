@@ -8,7 +8,7 @@ H = 720
 W = 1280
 
 # Read input video
-cap = cv2.VideoCapture('2023-04-27_uc12_part1_seek.mp4')
+cap = cv2.VideoCapture('input_video.mp4')
 
 # Get video properties
 fps = int(cap.get(cv2.CAP_PROP_FPS))
